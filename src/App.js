@@ -176,9 +176,9 @@ export default function App() {
               strokeLinecap="round"
             ></Circle>
           </SVG>
-          <LoadingText style={propsText}>Hello, I'm Simon</LoadingText>
-          <LoadingText style={propsText2}>A french web developper</LoadingText>
-          <LoadingText style={propsEndText}>Welcome</LoadingText>
+          <LoadingText style={propsText}>Hello <a style={{color:'#bd2300'}}>Stranger</a> !</LoadingText>
+          <LoadingText style={propsText2}>Welcome To Our <a style={{color:'#bd2300'}}>Gamification  Website</a></LoadingText>
+          <LoadingText style={propsEndText}>Come on in !</LoadingText>
         </LoaderContainer>
       </MainContainer>
     </div>
