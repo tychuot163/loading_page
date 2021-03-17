@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Sen", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 62.5%;
+}
+
+.App {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
